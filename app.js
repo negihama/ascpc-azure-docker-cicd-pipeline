@@ -3,7 +3,7 @@ const app = express()
 const port = 80
 
 app.get('/', (req, res) => {
-  res.send('Welcome to your ASCPC web app!')
+  res.send('<h1>Welcome to your ASCPC web app!</h1><br><div>Here is an update to test</div>')
 })
 
 app.listen(port, () => {
